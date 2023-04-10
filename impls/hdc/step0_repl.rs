@@ -2,7 +2,6 @@ use std::io;
 use std::io::Write;
 
 use rustyline::error::ReadlineError;
-// use rustyline::{DefaultEditor, Result};
 
 use rustyline::{Config, Editor, Result};
 fn main() -> Result<()> {
