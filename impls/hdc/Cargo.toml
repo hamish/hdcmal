@@ -11,3 +11,7 @@ rustyline = {version="11.0.0", features=["with-file-history", "with-sqlite-histo
 [[bin]]
 name = "step0_repl"
 path = "step0_repl.rs"
+
+[[bin]]
+name = "step1_read_print"
+path = "step1_read_print.rs"
