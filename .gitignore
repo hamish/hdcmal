@@ -24,3 +24,4 @@ old
 tmp/
 impls/hdc/target/
 
+impls/hdc/.hdc_history.sqlite3
