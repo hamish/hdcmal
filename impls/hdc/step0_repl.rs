@@ -17,11 +17,11 @@ fn main() -> Result<()> {
 
 
     loop {
-        let readline = rl.readline(">> ");
+        let readline = rl.readline("user> ");
         match readline {
             Ok(line) => {
+                println!("{}" , line);
                 rl.add_history_entry(line.as_str()).unwrap();
-                print!("{}" , line);
                 io::stdout().flush().unwrap();
             },
             Err(ReadlineError::Interrupted) => {
